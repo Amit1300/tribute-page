@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {padding: 0px;
+margin:0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+ul li{background-color:yellow;
+float: left;
+width: 300px;
+height: 80px;
+line-height: 70px;
+border: 1px solid black;
+text-align:center;
+
+}
+
+ul li ul li {display: none;
+margin-top: 5px;
+position: relative;}
+
+ul li:hover ul li {display:inline-block;
+}
+
+li:hover{ display:block;
+background-color: blue;}
+
+
+ul li ul li ul li{display: none;
+}
+
+ul li ul li:hover ul li{display:block;
+margin-left: 50px;
+float: left;
+position:absolute;}
+
+
+
+
+</style>
+</head>
+<body>
+<ul>
+<li>india</li>
+<li>england</li>
+<li>liverpool
+    <ul>
+        <li>klopp</li>
+
+        <ul>
+<li><a href="">amit</a></li>
+<li><a href="">amit</a></li>
+<li><a href="">amit</a></li>
+
+        </ul>
+        <li>klopp</li>
+        <li>klopp</li>
+        <li>klopp</li>
+    </ul>
+</li>
+<li>new zealand</li>
+<li>Austraila</li>
+
+
+</ul>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
